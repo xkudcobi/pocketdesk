@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="A tiny make-believe computer in your browser: windows, files, notes, drawing, a puzzle and a terminal.">
+  <title>Pocketdesk</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect x='4' y='8' width='40' height='30' rx='6' fill='%23ffd166' stroke='%232b2d42' stroke-width='3'/%3E%3Cpath d='M16 44h16' stroke='%232b2d42' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/desk.css">
+  <link rel="stylesheet" href="css/apps.css">
+</head>
+<body data-theme="meadow">
+  <main id="desk" class="desk">
+    <div id="icons" class="icons" role="list"></div>
+    <p id="desk-hint" class="desk-hint"></p>
+    <div id="windows" class="windows"></div>
+    <div id="snap-preview" class="snap-preview" hidden></div>
+  </main>
+  <footer id="taskbar" class="taskbar"></footer>
+  <div id="overlay" class="overlay" hidden></div>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <noscript><p class="noscript">Pocketdesk needs JavaScript to run. / Pocketdesk'in çalışması için JavaScript gerekir.</p></noscript>
+
+  <script src="js/core/i18n.js"></script>
+  <script src="js/core/vfs.js"></script>
+  <script src="js/core/windows.js"></script>
+  <script src="js/core/calc.js"></script>
+  <script src="js/core/shell.js"></script>
+  <script src="js/core/puzzle.js"></script>
+  <script src="js/core/doodle.js"></script>
+  <script src="js/core/store.js"></script>
+  <script src="js/core/persist.js"></script>
+  <script src="js/core/seed.js"></script>
+  <script src="js/core/actions.js"></script>
+  <script src="js/ui/dom.js"></script>
+  <script src="js/ui/icons.js"></script>
+  <script src="js/ui/windowLayer.js"></script>
+  <script src="js/ui/desktop.js"></script>
+  <script src="js/ui/taskbar.js"></script>
+  <script src="js/apps/files.js"></script>
+  <script src="js/apps/notes.js"></script>
+  <script src="js/apps/doodle.js"></script>
+  <script src="js/apps/calculator.js"></script>
+  <script src="js/apps/terminal.js"></script>
+  <script src="js/apps/puzzle.js"></script>
+  <script src="js/apps/settings.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

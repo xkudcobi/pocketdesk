@@ -1,0 +1,10 @@
+{
+  "name": "pocketdesk",
+  "version": "1.0.0",
+  "description": "A tiny make-believe computer in your browser: windows, files, notes, drawing, a puzzle and a terminal.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test \"tests/*.test.js\""
+  }
+}
